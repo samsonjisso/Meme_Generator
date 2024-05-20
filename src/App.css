@@ -16,7 +16,9 @@ body {
   padding-right: 26px;
 }
 
-
+main {
+  padding: 36px;
+}
 .header--logo {
   width: 32px;
   height: 27px;
@@ -32,16 +34,21 @@ body {
   font-weight: 500;
 }
 
-
 .form {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
-  padding: 36px;
 }
-
+.form--inputs {
+  font-family: karla, sans-serif;
+  border-radius: 5px;
+  border:  1px solid #D1D5DB;
+  text-indent: 5px;
+}
 .form--button {
   grid-column: 1 / -1;
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   color: white;
+  border-radius: 5px;
+  border: none;
 }

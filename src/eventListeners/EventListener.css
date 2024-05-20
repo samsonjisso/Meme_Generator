@@ -1,0 +1,15 @@
+.event {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.event--image {
+  border-radius: 10px;
+}
+
+.event--button {
+    height: 50px;
+  border-radius: 5px;
+}

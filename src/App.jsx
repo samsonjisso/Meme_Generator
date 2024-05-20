@@ -1,13 +1,14 @@
 import "./App.css";
 import Meme from "./component/Meme";
 import NavBar from "./component/NavBar";
+import EventListener from "./eventListeners/EventListener";
 
 function App() {
   return (
-    <main>
-    <NavBar />
-    <Meme/>
-    </main>
+    <>
+      <NavBar />
+      <Meme />
+    </>
   );
 }
 
