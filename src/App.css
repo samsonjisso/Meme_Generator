@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: karla, sans-serif;
-}
+  }
 .header{
   margin: 0;
   display: flex;
@@ -51,8 +51,25 @@ main {
   color: white;
   border-radius: 5px;
   border: none;
+
 }
 .random--image--container {
+  background: whitesmoke;
+  color: black;
+}
+.form--button:active {
+  box-shadow: 0 6px 8px #666;
+  transform: translateY(2px);
+}
+.form--img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: 800px;
+  height: 800 px;
+}
+.image--container {
   display: flex;
   align-items: center;
   justify-content: center;

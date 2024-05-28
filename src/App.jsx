@@ -1,5 +1,4 @@
-import { useState } from "react";
-// import "./App.css";
+import "./App.css";
 import Meme from "./component/Meme";
 import NavBar from "./component/NavBar";
 import EventListener from "./eventListeners/EventListener";
@@ -9,7 +8,7 @@ import AppBoxes from "./boxes_challenge/AppBoxes";
 
 function App() {
   return (
-    // <>
+     // <>
     //   <NavBar />
     //   <Meme />
     // </>
