@@ -1,21 +1,9 @@
 import { useState } from "react";
 import jokesData from "./jokes";
+import Joke from "./Joke";
 
 export default function AppJokes() {
   const [jokes, setJokes] = useState(jokesData);
-  const [isShown, setShow] = useState(false);
-  const toggleShow  = () => {
-    setShow(prevShow => !prevShow)
-  }
-  const jokeLines = jokes.map((joke) => {
-    return (
-      <div>
-        <h1>{joke.setup}</h1>
-        <h3>{isShown ? joke.punchline : ""}</h3>
-        <button onClick={toggleShow}>show</button>
-        <hr />
-      </div>
-    );
-  });
+  const jokeLines = jokes.map((joke) => <Joke setup={joke.setup} punchline={joke.punchline} />);
   return <>{jokeLines}</>;
 }
