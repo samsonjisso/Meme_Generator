@@ -3,14 +3,18 @@
 }
 .form {
   display: flex;
+  justify-content: start;
+  align-items:start;
   flex-direction: column;
-  width: 200px; /* adjust as needed */
-  margin: 0 auto;
+  width: 200px;
+  padding: 2%;
+  column-gap: 5px;
 }
-.form input {
-  margin: 10px 0;
-}
-input 
+
+input, textarea
 {
-  margin: 10px 0;
+  padding: 5%;
+  margin: 0;
+  font-size: 18px;
+  border-radius: 16px;
 }
